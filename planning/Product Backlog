@@ -1,0 +1,36 @@
+Focus Logic (HIGH PRIORITY)
+
+User Story:
+As a student, I want the app to detect when I am on productive websites so that I can earn XP to level up my character progression. 
+
+Tasks:
+•	Define a list of productive domains (GitHub, Google Docs, Notion)
+•	Detect active browser tab
+•	Implement XP formula (XP = Time × Multiplier)
+•	Display focus timer UI
+•	Create a level system
+•	Design XP bar
+•	Design health/mana bars
+
+Distraction Penalty (MEDIUM PRIORITY)
+
+User Story:
+As a user, I want my character to sleep if I spend too much time on distracting websites.
+
+Tasks:
+•	Define blacklist sites (Instagram, X, TikTok)
+•	Track time spent (>5 minutes)
+•	Trigger sleep state
+•	Apply 10% XP penalty
+•	Show “character sleeping” UI
+
+Feedback System (LOW PRIORITY)
+
+User Story:
+As a user, I want to receive feedback, so I know when I am losing focus.
+
+Tasks:
+•	Push notification (“Your hero is getting tired”)
+•	Visual indicator of HP decrease
+•	Alert when distraction is detected
+
