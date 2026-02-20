@@ -1,1 +1,36 @@
+Project Title
+
+FocusQuest: Gamified Productivity Tracker for Students
+SDG Chosen - SDG 4: Quality Education
+Problem Statement
+Many students struggle to stay focused while studying due to distractions such as social media (YouTube, X). This leads to reduced productivity and poor learning outcomes.
+Solution
+
+FocusQuest is a gamified productivity application that:
+- Rewards students with XP when they focus on productive websites
+- Penalizes distractions through gameplay mechanics
+- Encourages consistent study habits using character progression
+
+Target Users
+- High school students
+- University students
+- Self-learners
+
+ Key Features
+
+1.	Focus Tracking System
+a) Detects productive websites
+b) Rewards XP based on time spent
+
+2.	Distraction Penalty System
+a) Detects time spent on distracting sites
+b) Applies penalties (sleep state, XP reduction)
+ 
+3.	Character Progression
+a) Level system
+b) Health/Mana bars
+c) Rest mechanic
+
+Value Proposition
+FocusQuest transforms studying into an engaging experience by combining productivity tracking with game elements, helping students stay focused and improve learning efficiency
 
