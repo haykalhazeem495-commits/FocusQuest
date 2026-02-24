@@ -1,0 +1,8 @@
+This section retrieves useful data from the information gathered from users.
+The data is expressed in a visually more understanding manner.
+In other words, the information from user stories is used to create a use case diagram.
+The transition from user stories to a use case diagram involves: 
+  i. The identification of actors from user roles
+ ii. The extraction of system functionalities from the actions described in each story
+iii. Modelling the interactions and relationships between the actors and the use cases
+ iv. Setting the system boundary
