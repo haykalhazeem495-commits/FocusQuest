@@ -16,7 +16,7 @@ Task Management (To-Do List)
 
 Reward & Progression System
  Description: A dashboard to visualize learning progress.
- Elements: * Badges: Earned for milestones (e.g., "7-Day Streak", "10 Hours Focused").
+ Elements: Badges: Earned for milestones (e.g., "7-Day Streak", "10 Hours Focused").
  Shop: Use Gold to buy skins for the timer or virtual items for the pet.
  Acceptance Criteria:
    Visual progress bar for Leveling Up.
