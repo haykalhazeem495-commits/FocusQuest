@@ -1,0 +1,16 @@
+{
+  "name": "focusquest-extension",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FocusQuest Chrome extension prototype",
+  "scripts": {
+    "build": "npm run build:popup && npm run build:background",
+    "build:popup": "npm --prefix popup run build",
+    "build:background": "esbuild extension/background.ts --bundle --platform=browser --target=chrome114 --format=esm --outfile=extension/background.js",
+    "dev:popup": "npm --prefix popup run dev"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.312",
+    "esbuild": "^0.25.1"
+  }
+}
