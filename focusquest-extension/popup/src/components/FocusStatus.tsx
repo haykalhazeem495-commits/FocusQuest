@@ -23,20 +23,24 @@ export function FocusStatus({ focused, hp, currentSite }: FocusStatusProps): JSX
   return (
     <div className="space-y-2">
       <div className="flex items-center justify-between gap-2">
-        <p className="text-xs uppercase tracking-wide text-muted-foreground">Focus Status</p>
+        <p className="text-xs uppercase tracking-wide text-violet-900/65">Focus Status</p>
         <Badge
           variant="secondary"
-          className={focused ? "bg-emerald-500/20 text-emerald-300" : "bg-rose-500/20 text-rose-300"}
+          className={
+            focused
+              ? "border border-cyan-300/65 bg-cyan-200/35 text-cyan-900"
+              : "border border-orange-300/75 bg-orange-100/55 text-orange-900"
+          }
         >
           {focused ? "Focused on Study Site ✅" : "Distracted ❌"}
         </Badge>
       </div>
-      <p className="text-sm text-foreground/90">{getMessage(focused, hp)}</p>
-      <p className="truncate text-xs text-muted-foreground">
-        Current site: <span className="text-foreground">{currentSite}</span>
+      <p className="text-sm text-violet-950/90">{getMessage(focused, hp)}</p>
+      <p className="truncate text-xs text-violet-900/70">
+        Current site: <span className="text-violet-950">{currentSite}</span>
       </p>
       {!studySite && currentSite !== "No active site" && currentSite !== "Monitoring paused" ? (
-        <p className="text-xs text-amber-300">Tip: This site is not on your educational allowlist.</p>
+        <p className="text-xs text-amber-700">Tip: This site is not on your educational allowlist.</p>
       ) : null}
     </div>
   );

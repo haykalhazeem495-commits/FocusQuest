@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --background: 220 24% 8%;
-  --foreground: 210 40% 98%;
-  --card: 222 28% 12%;
-  --card-foreground: 210 40% 96%;
-  --primary: 162 78% 43%;
-  --primary-foreground: 222 47% 11%;
-  --secondary: 221 17% 20%;
-  --secondary-foreground: 210 40% 94%;
-  --muted: 222 16% 19%;
-  --muted-foreground: 215 20% 69%;
-  --accent: 192 70% 50%;
-  --accent-foreground: 224 71% 4%;
-  --border: 217 19% 27%;
-  --input: 217 19% 27%;
-  --ring: 162 78% 43%;
+  --background: 268 82% 95%;
+  --foreground: 230 24% 22%;
+  --card: 240 73% 97%;
+  --card-foreground: 230 24% 22%;
+  --primary: 241 70% 63%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 208 78% 91%;
+  --secondary-foreground: 232 29% 26%;
+  --muted: 236 48% 91%;
+  --muted-foreground: 231 18% 43%;
+  --accent: 201 95% 72%;
+  --accent-foreground: 232 31% 22%;
+  --border: 233 45% 82%;
+  --input: 232 45% 86%;
+  --ring: 241 70% 63%;
   --radius: 0.8rem;
 }
 
@@ -28,7 +28,10 @@
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Segoe UI", "Inter", sans-serif;
-  background: radial-gradient(circle at 20% 0%, #22314f 0%, #0f1424 55%, #090c16 100%);
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+  background:
+    radial-gradient(circle at 10% 12%, rgba(255, 194, 145, 0.68) 0%, rgba(255, 194, 145, 0) 32%),
+    radial-gradient(circle at 90% 88%, rgba(100, 190, 255, 0.54) 0%, rgba(100, 190, 255, 0) 34%),
+    linear-gradient(128deg, #87cef8 0%, #9d93ef 50%, #f0c08f 100%);
   color: hsl(var(--foreground));
 }
