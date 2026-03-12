@@ -24,3 +24,55 @@ Technical Constraints & MVP Scope
 - Platform: Mobile/Web (Targeting accessibility).
 - MVP (Phase 1): Functional Timer + Basic Task List + Gold Rewards.
 - Phase 2: Social Leaderboards + Advanced Pet/Hero Evolution.
+
+Requirements are gathered from Google Forms and Interview
+
+Form - https://docs.google.com/forms/d/e/1FAIpQLSfMlwOgmh-dyoo3nhYz1a_ZtyMRq8hLA8xuvjbiAkmJmSM77g/viewform?usp=header
+
+Interview 
+Interview Title: Understanding Students’ Study Habits and Focus Challenges
+Project: FocusQuest
+Date: 28 February
+Interview Method: Online
+Interviewer: Muhammad Haykal NurHazeem bin Murizan
+Participant: Student (Anonymous)
+
+- Question 1 -
+
+Interviewer: Can you describe how you usually study for your classes?
+
+Participant: I usually study at night after classes. I try to review lecture notes and sometimes watch online videos to understand the topic better.
+
+- Question 2 -
+
+Interviewer: Do you often face difficulties staying focused while studying?
+
+Participant: Yes, sometimes I get distracted easily, especially by my phone or social media. It can be difficult to stay focused for a long period of time.
+
+- Question 3 -
+
+Interviewer: What methods do you currently use to manage your study time?
+
+Participant: I usually create a simple to-do list or set reminders on my phone. However, I do not always follow it consistently.
+
+- Question 4 -
+
+Interviewer: Would you be interested in using a system that helps track your study sessions?
+
+Participant: Yes, I think it would be helpful if there was a system that could track my study time and show my progress.
+
+- Question 5 -
+
+Interviewer: What features do you think would help students stay motivated while studying?
+
+Participant: Maybe something like rewards, progress tracking, or achievements. It could make studying feel less boring.
+
+- Question 6 -
+
+Interviewer: Do you think gamification elements could make studying more engaging?
+
+Participant: Yes, I think adding game-like elements could motivate students to study more consistently.
+
+Summary - The interview revealed that students often face challenges maintaining focus during study sessions due to distractions such as social media. 
+Participants expressed interest in tools that can track study time and provide visual progress. Gamification features such as rewards and achievements
+were also suggested as ways to increase motivation and engagement while studying.
